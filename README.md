@@ -1,8 +1,7 @@
 A curated collection of idiomatic design & application patterns for Go language.
 
 ## Creational Patterns
-
-| Pattern | Description | 
+ 
 |:-------:|:----------- |
 | [Abstract Factory](/creational/abstract_factory.md) | Provides an interface for creating families of releated objects |
 | [Builder](/creational/builder.md) | Builds a complex object using simple objects |
@@ -12,7 +11,6 @@ A curated collection of idiomatic design & application patterns for Go language.
 
 ## Structural Patterns
 
-| Pattern | Description |
 |:-------:|:----------- |
 | [Bridge](/structural/bridge.md) | Decouples an interface from its implementation so that the two can vary independently |
 | [Composite](/structural/composite.md) | Encapsulates and provides access to a number of different objects |
@@ -23,7 +21,6 @@ A curated collection of idiomatic design & application patterns for Go language.
 
 ## Behavioral Patterns
 
-| Pattern | Description |
 |:-------:|:----------- |
 | [Chain of Responsibility](/behavioral/chain_of_responsibility.md) | Avoids coupling a sender to receiver by giving more than object a chance to handle the request |
 | [Command](/behavioral/command.md) | Bundles a command and arguments to call later |
@@ -38,7 +35,6 @@ A curated collection of idiomatic design & application patterns for Go language.
 
 ## Synchronization Patterns
 
-| Pattern | Description |
 |:-------:|:----------- |
 | [Condition Variable](/synchronization/condition_variable.md) | Provides a mechanism for threads to temporarily give up access in order to wait for some condition |
 | [Lock/Mutex](/synchronization/mutex.md) | Enforces mutual exclusion limit on a resource to gain exclusive access |
@@ -48,7 +44,6 @@ A curated collection of idiomatic design & application patterns for Go language.
 
 ## Concurrency Patterns
 
-| Pattern | Description |
 |:-------:|:----------- |
 | [N-Barrier](/concurrency/barrier.md) | Prevents a process from proceeding until all N processes reach to the barrier |
 | [Bounded Parallelism](/concurrency/bounded_parallelism.md) | Completes large number of independent tasks with resource limits |
@@ -61,7 +56,6 @@ A curated collection of idiomatic design & application patterns for Go language.
 
 ## Messaging Patterns
 
-| Pattern | Description |
 |:-------:|:----------- |
 | [Fan-In](/messaging/fan_in.md) | Funnels tasks to a work sink (e.g. server) |
 | [Fan-Out](/messaging/fan_out.md) | Distributes tasks among workers (e.g. producer) |
@@ -71,7 +65,6 @@ A curated collection of idiomatic design & application patterns for Go language.
 
 ## Stability Patterns
 
-| Pattern | Description |
 |:-------:|:----------- |
 | [Bulkheads](/stability/bulkhead.md)  | Enforces a principle of failure containment (i.e. prevents cascading failures) |
 | [Circuit-Breaker](/stability/circuit-breaker.md) | Stops the flow of the requests when requests are likely to fail |
@@ -82,18 +75,15 @@ A curated collection of idiomatic design & application patterns for Go language.
 
 ## Profiling Patterns
 
-| Pattern | Description |
 |:-------:|:----------- |
 | [Timing Functions](/profiling/timing.md) | Wraps a function and logs the execution |
 
 ## Idioms
 
-| Pattern | Description |
 |:-------:|:----------- |
 | [Functional Options](/idiom/functional-options.md) | Allows creating clean APIs with sane defaults and idiomatic overrides |
 
 ## Anti-Patterns
 
-| Pattern | Description |
 |:-------:|:----------- |
 | [Cascading Failures](/anti-patterns/cascading_failures.md) | A failure in a system of interconnected parts in which the failure of a part causes a domino effect |
